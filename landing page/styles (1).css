@@ -1,0 +1,139 @@
+*/ Reset some default styling */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styling for the main content */
+main {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+/* Styling for the mission details section */
+.mission-details {
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.mission-details h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.mission-details p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Styling for the image gallery section */
+.image-gallery {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  }
+.footer p{
+margin:0;
+}  
+.image-container
+{
+float:left;
+margin:10 px;
+}
+* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Style for the footer content container */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the footer logo */
+.footer-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Style for the footer links */
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Style for the footer social icons */
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style for the footer bottom */
+.footer-bottom {
+  margin-top: 20px;
+}
+
+/* Center the copyright text */
+.footer-bottom p {
+  text-align: center;
+}
+/* Style for the footer logo */
+.footer-logo img {
+  width: 160px; /* Set the width to a fixed value */
+  height: 160px; /* Set the height to a fixed value */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Style for the footer social icons */
+.footer-social img {
+  width: 34px; /* Set the width for the social icons */
+  height: 34px; /* Set the height for the social icons */
+}
+
